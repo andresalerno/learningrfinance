@@ -1,0 +1,157 @@
+---
+title: "Finanças e Programação"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+# Curso Formação Aplicada em Finanças e Programação
+
+## Introdução a Programação usando R
+
+### 1) Conhecendo a Linguagem de Programação R
+
+### 2) Tipos básicos de dados no R
+
+### 2) Atribuição de variável
+
+### 2) Aritmética
+
+*Você pode usar o R para fazer alguns cálculos*
+
+`Adição (+)`
+
+### Exercício: Faça a adição de dois números:
+```{r adicao, exercise=TRUE}
+
+```
+`Subtração (-)`
+
+### Exercício: Faça a subtração de dois números:
+```{r subtracao, exercise=TRUE}
+
+```
+`Divisão (/)`
+
+### Exercício: Faça a divisão de dois números:
+```{r divisao, exercise=TRUE}
+
+```
+`Divisão inteiro (%/%)`
+
+### Exercício: Faça a divisão de dois números inteiros (entre os números use o seguinte sinal `%/%`:
+```{r div_inteiro, exercise=TRUE}
+
+```
+
+
+### 1) Usando como calculadora
+
+*Você pode usar o ambiente de código logo abaixo para fazer cálculos. Experimente calcular 2 + 2 e clique no botão logo ao lado direito superior "Run Code"*
+
+```{r calculadora, exercise=TRUE}
+
+```
+
+
+### Exercise 
+
+*Here's a simple exercise with an empty code chunk provided for entering the answer.*
+
+Write the R code required to add two plus two:
+
+```{r two-plus-two, exercise=TRUE}
+
+```
+
+### Exercise with Code
+
+*Here's an exercise with some prepopulated code as well as `exercise.lines = 5` to provide a bit more initial room to work.*
+
+Now write a function that adds any two numbers and then call it:
+
+```{r add-function, exercise=TRUE, exercise.lines = 5}
+add <- function() {
+  
+}
+```
+
+## Matemática Financeira
+
+### Exercise with Hint
+
+*Here's an exercise where the chunk is pre-evaulated via the `exercise.eval` option (so the user can see the default output we'd like them to customize). We also add a "hint" to the correct solution via the chunk immediate below labeled `print-limit-hint`.*
+
+Modify the following code to limit the number of rows printed to 5:
+
+```{r print-limit, exercise=TRUE, exercise.eval=TRUE}
+mtcars
+```
+
+```{r print-limit-hint}
+head(mtcars)
+```
+
+### Quiz
+
+*You can include any number of single or multiple choice questions as a quiz. Use the `question` function to define a question and the `quiz` function for grouping multiple questions together.*
+
+Some questions to verify that you understand the purposes of various base and recommended R packages:
+
+```{r quiz}
+quiz(
+  question("Which package contains functions for installing other R packages?",
+    answer("base"),
+    answer("tools"),
+    answer("utils", correct = TRUE),
+    answer("codetools")
+  ),
+  question("Which of the R packages listed below are used to create plots?",
+    answer("lattice", correct = TRUE),
+    answer("tools"),
+    answer("stats"),
+    answer("grid", correct = TRUE)
+  )
+)
+```
+
+## Introdução a Programação usando R2
+
+### Exercise 
+
+*Here's a simple exercise with an empty code chunk provided for entering the answer.*
+
+Write the R code required to add two plus two:
+
+```{r three-plus-two, exercise=TRUE}
+
+```
+
+### Exercise with Code
+
+*Here's an exercise with some prepopulated code as well as `exercise.lines = 5` to provide a bit more initial room to work.*
+
+Now write a function that adds any two numbers and then call it:
+
+## Economia
+
+### Exercise 
+
+*Here's a simple exercise with an empty code chunk provided for entering the answer.*
+
+## Capital de Giro
+
+### Exercise 
+
+*Here's a simple exercise with an empty code chunk provided for entering the answer.*
+
+```2 + 2```
+```+```
+
+
